@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 110px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+header p {
+    float: right;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Logo {
+    margin-left: 20px;
+    margin-right: 70px;
+    height: 80%;
+    float: left;
+    margin-top: 10px;
+}
+
+.landingpage {
+    display: flex;
+}
+
+.santa-kid {
+    width: 60vw;
+}
+
+.donate-box {
+    width: 560px;
+    height: 590px;
+    margin-right: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+.donation-navigation {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: -15px;
+}
+
+.monthly-donor {
+    width: 100%;
+    padding: 15px;
+}
+
+.donation {
+    width: 100%;
+    background-color: #EF0000;
+    color: #fff;
+}
+
+.donation-title {
+    font-weight: 700;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.sum-button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid #EF0000;
+    background-color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.sum-active {
+    background-color: #EF0000;
+    color: #fff
+}
+
+.gift {
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.payment {
+    width: 300px;
+    border: 1px solid #b7adad;
+    padding: 10px;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bread-text {
+    width: 50%;
+    padding: 18px 40px 0px 40px;
+    font-weight: 300;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CC2A2A;
+    color: #fff;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 7px;
+}
+
+.take-me-to-christmas {
+    height: 300px;
+    width: 50%;
+    position: relative;
+}
+
+#button-text {
+    position: absolute;
+    top: 0px;
+}
+
+#button {
+    margin-top: 50px;
+}
+
+.donation-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #FBE7E7;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.bread-text-donation {
+    background-color: #FBE7E7;
+    color: #000;
+}
+
+article {
+    font-size: 18px;
+}
+
+.bread-text-donation > article {
+    margin-right: 15%;
+}
+
+footer {
+    height: 50px;
+}
+
+.something {
+    background-color: rgba(255,255, 255, 0.6);
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.foot > p {
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
