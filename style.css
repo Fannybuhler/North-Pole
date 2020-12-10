@@ -194,3 +194,9 @@ footer {
     font-weight: 300;
 }
 
+.santa-scene {
+    background-image: url(./Images/ChristmasScene.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
